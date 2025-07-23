@@ -1,0 +1,8 @@
+pytest
+pytest-django
+drf-yasg
+
+gunicorn
+dj-database-url
+whitenoise
+django-cors-headers
