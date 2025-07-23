@@ -6,4 +6,5 @@ psycopg2-binary
 Pillow
 whitenoise
 django-cors-headers
+dj-database-url
 drf-yasg  # for Swagger docs
