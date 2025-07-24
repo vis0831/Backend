@@ -284,7 +284,7 @@ CORS_ALLOWED_ORIGINS = [
 
 import dj_database_url
 
-ALLOWED_HOSTS = ['https://backend-1-t8v2.onrender.com']  # or use Render's domain
+#ALLOWED_HOSTS = ['https://backend-1-t8v2.onrender.com']  # or use Render's domain
 
 DATABASES = {
     'default': dj_database_url.config(default='sqlite:///db.sqlite3', conn_max_age=600)
