@@ -4,6 +4,7 @@ djangorestframework-simplejwt
 gunicorn
 psycopg2-binary
 Pillow
+django-filter
 whitenoise
 django-cors-headers
 dj_database_url
