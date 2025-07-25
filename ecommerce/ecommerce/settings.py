@@ -18,7 +18,7 @@ DEBUG = False  # For production, set to False!
 
 # ALLOWED_HOSTS should be a list of hostnames, **without protocol**
 ALLOWED_HOSTS = [
-    'backend-1-t8v2.onrender.com',
+    'https://backend-92tm.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
