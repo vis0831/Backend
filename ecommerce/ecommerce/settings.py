@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-kci775h^czf7#55-#4@3e%w8o#98&_q=nzg!(xa6x#*8*hxric'
 
-DEBUG = True  # For production, set to False!
+DEBUG = False  # For production, set to False!
 
 # ALLOWED_HOSTS should be a list of hostnames, **without protocol**
 ALLOWED_HOSTS = [
@@ -140,9 +140,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-kci775h^czf7#55-#4@3e%w8o#98&_q=nzg!(xa6x#*8*hxric'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 # Application definition
 
