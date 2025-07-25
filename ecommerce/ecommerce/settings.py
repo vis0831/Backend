@@ -76,11 +76,7 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
 # Database - use dj_database_url to parse DATABASE_URL from Render env
 DATABASES = {
-    'default': dj_database_url.config(
-        default='sqlite:///db.sqlite3',  # fallback for local dev
-        conn_max_age=600,
-        ssl_require=True,  # recommended for production
-    )
+    'default': dj_database_url.config(default=os.environ.get('postgresql://postgres_omw3_user:zg2JMkQQO5TdgRTzvtzL8f22yfhqbKvX@dpg-d21iuaffte5s73flpakg-a.singapore-postgres.render.com/postgres_omw3'))
 }
 
 # Password validation (keep as you had)
