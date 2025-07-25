@@ -21,7 +21,7 @@ ALLOWED_HOSTS = [
 
 # Trusted origins for CSRF (needed if you use HTTPS and CORS)
 CSRF_TRUSTED_ORIGINS = [
-    'https://backend-1-t8v2.onrender.com',
+    'https://backend-6dmp.onrender.com/',
 ]
 
 # Application definition
