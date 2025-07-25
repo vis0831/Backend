@@ -14,7 +14,7 @@ DEBUG = os.environ.get('DEBUG', 'False').lower() in ['true', '1']
 
 # Add your Render backend domain here
 ALLOWED_HOSTS = [
-    'backend-1-t8v2.onrender.com',  # your render backend URL
+    'https://backend-6dmp.onrender.com/',  # your render backend URL
     'localhost',
     '127.0.0.1',
 ]
